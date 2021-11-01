@@ -1,0 +1,6 @@
+created a google dev account to access youtube data api.
+created a project there named movieNight.
+the authkey there can be used to get youtubes data.
+to visite the project go here:
+
+https://console.cloud.google.com/home/dashboard?orgonly=true&project=movienight-330810&supportedpurview=project
