@@ -16,6 +16,7 @@ function videoSearch(key,search,maxResults){
 
         data.items.forEach(element => {
             video = `
+            <a href="https://www.youtube.com/watch?v=${element.id.videoId}">
             <div>
             <iframe width="320" height="180" src="${element.snippet.thumbnails.medium.url}" frameborder="0" allowfullscreen></iframe>
             </div>
@@ -24,6 +25,9 @@ function videoSearch(key,search,maxResults){
             <p>${element.snippet.channelTitle}</p>
             </div>
             <br>
+
+            </a>
+
             `
             $("#videos").append(video)
         });
