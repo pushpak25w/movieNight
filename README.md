@@ -10,16 +10,17 @@ e) Granting system (pauses and other requests).
 f) Synchronizing problem. (max smooth or min smooth)🐱‍🚀
 g) Stream Local files.
 
-     Steps:
-1. Video Player Front end (Youtube API) & Youtube videos classification.
+Steps:
 
-2. Setting up server connection to video player and controls.
+     1. Video Player Front end (Youtube API) & Youtube videos classification.
 
-3. Link parse Karna, Iframe.
+     2. Setting up server connection to video player and controls.
 
-4. Sync problem
+     3. Link parse Karna, Iframe.
 
-5. User structure
+     4. Sync problem
+
+     5. User structure
 
 
 
