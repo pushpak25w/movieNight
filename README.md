@@ -1,13 +1,14 @@
 Movies Night
 
 29/10/2021
-Room where we can uniquely identify using authentication or unique links.
-We can use iframe to search results and copy the link
-User structure: Privileges and hierarchy and restrictions.
-Create Server structure
-Granting system (pauses and other requests).
-Synchronizing problem. (max smooth or min smooth)🐱‍🚀
-Stream Local files.
+Features needed:
+a) Room where we can uniquely identify using authentication or unique links.
+b) We can use iframe to search results and copy the link
+c) User structure: Privileges and hierarchy and restrictions.
+d) Create Server structure
+e) Granting system (pauses and other requests).
+f) Synchronizing problem. (max smooth or min smooth)🐱‍🚀
+g) Stream Local files.
 
      Steps:
 1. Video Player Front end (Youtube API) & Youtube videos classification.
