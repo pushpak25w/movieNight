@@ -16,8 +16,14 @@ function videoSearch(key,search,maxResults){
 
         data.items.forEach(element => {
             video = `
-            
-            <iframe width="420" height="315" src="${element.snippet.thumbnails.medium.url}" frameborder="0" allowfullscreen></iframe>
+            <div>
+            <iframe width="320" height="180" src="${element.snippet.thumbnails.medium.url}" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div>
+            <p>${element.snippet.title}</p>
+            <p>${element.snippet.channelTitle}</p>
+            </div>
+            <br>
             `
             $("#videos").append(video)
         });
