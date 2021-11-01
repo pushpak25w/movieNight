@@ -10,11 +10,15 @@ Synchronizing problem. (max smooth or min smooth)🐱‍🚀
 Stream Local files.
 
      Steps:
-Video Player Front end (Youtube API) & Youtube videos classification.
-Setting up server connection to video player and controls.
-Link parse Karna, Iframe.
-Sync problem
-User structure
+1. Video Player Front end (Youtube API) & Youtube videos classification.
+
+2. Setting up server connection to video player and controls.
+
+3. Link parse Karna, Iframe.
+
+4. Sync problem
+
+5. User structure
 
 
 
