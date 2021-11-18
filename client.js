@@ -12,7 +12,7 @@ $(document).ready(function () {
     //to get value from the search box
     var search = $("#search").val();
     //function to get search results
-    videoSearch(API_KEY, search, 12);
+    videoSearch(API_KEY, search, 45);
   });
 
 
