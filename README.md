@@ -15,11 +15,3 @@
      3. Link parse Karna, Iframe.
      4. Sync problem.
      5. User structure.
-...
-include<stdio.h>
-using namespace std;
-int main(){
-
-return 0;
-}
-...
