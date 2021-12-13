@@ -3,12 +3,13 @@ import React from 'react'
 const Auth = () => {
     return (
         <div>
-            <form>
-                <label>Enter Your Id</label>
-                <input type="text" required/>
-                <label>Enter the Secret Code</label>
-                <input type="text" required/>
-
+            <form className="form">
+                <label className='subtitle'>Enter Your Id</label>
+                <input class="input" type="text" required/>
+               
+                <label className='subtitle' >Enter the Secret Code</label>
+                <input class="input" type="text" required/>
+                <button className='submit'>Go</button>
             </form>
         </div>
     )
