@@ -3,6 +3,7 @@ import Auth from './components/Auth';
 import Header from './components/Header';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'; 
 import Start from './components/Start.js';
+import CreateRoom from './components/CreateRoom';
 function App() {
   return (
     <Router>
@@ -12,6 +13,7 @@ function App() {
       <Switch>
         <Route exact path ="/">
         <Start />
+        {/* <CreateRoom /> */}
         </Route>
         <Route  path ="/Auth">
         <Auth />
