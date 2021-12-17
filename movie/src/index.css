@@ -56,6 +56,41 @@ body {
   width: 100%;
 }
 
+
 .submit:active {
   background-color: #06b;
+}
+
+.sub{
+
+  background-color: #08d;
+  border-radius:  50px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+  color: white;
+ 
+  padding: 1em;
+}
+.icons{
+  color: #eee;
+  margin-left: 2px;
+  margin-right: 5px;
+  margin-top: 5px;
 }
