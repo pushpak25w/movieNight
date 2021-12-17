@@ -7,13 +7,13 @@ import CreateRoom from './components/CreateRoom';
 function App() {
   return (
     <Router>
-       <div className="App">
+        <div className="App">
        <Header />
       <div className='content'>
       <Switch>
         <Route exact path ="/">
         <Start />
-        {/* <CreateRoom /> */}
+        
         </Route>
         <Route  path ="/Auth">
         <Auth />
