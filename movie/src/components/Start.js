@@ -5,21 +5,26 @@ import { Link } from 'react-router-dom';
 
 const Start = () => {
     return (
-        <div>
-             <button className='sub'>
+        <div style={{display:"flex" , flexDirection:"column"}}>
+        <Link style={{ textDecoration: 'none', marginBottom:"10px" }} to="/CreateRoom">
+            <button className='sub'>
              
-             <IoIosAddCircle className='icons'>
-            
+             <IoIosAddCircle style={{marginTop:"1px"}} className='icons'>
+                
              </IoIosAddCircle>
-             Create a Room
+            <>Create a Room</>
              </button>
-             <h3 style={{alignItems: 'center',color:"white",margin:'auto',width:'0%'}}>or</h3>
-             <Link to="/Auth">
+            </Link>
+             
+             <h3 style={{alignItems: 'center',color:"white",margin:"auto",width:'0%'}}>or</h3>
+             <Link style={{ textDecoration: 'none' ,marginTop:"10px" }} to="/Auth">
              <button className='sub'>
-             <FaGetPocket className='icons'>
+             <FaGetPocket style={{marginTop:"1px"}} className='icons'>
             
              </FaGetPocket>
-             Join a Room</button>
+             
+             <p>Join a Room</p>
+             </button>
              </Link>
              
         
