@@ -25,6 +25,6 @@
     npm start
 ### for client:
     cd nodejs-chat
-    cd server
+    cd client
     npm i
     npm start
