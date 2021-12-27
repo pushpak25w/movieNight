@@ -18,17 +18,13 @@
 ## json-server :
      https://movienightdatabase.herokuapp.com/
 ## use:
-# for server:
-    ```
+### for server:
     cd nodejs-chat
     cd server
     npm i
     npm start
-    ```
-# for client:
-    ```
+### for client:
     cd nodejs-chat
     cd server
     npm i
     npm start
-    ```
