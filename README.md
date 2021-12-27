@@ -17,3 +17,18 @@
      5. User structure.
 ## json-server :
      https://movienightdatabase.herokuapp.com/
+## use:
+# for server:
+    ```
+    cd nodejs-chat
+    cd server
+    npm i
+    npm start
+    ```
+# for client:
+    ```
+    cd nodejs-chat
+    cd server
+    npm i
+    npm start
+    ```
