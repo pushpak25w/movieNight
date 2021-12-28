@@ -28,3 +28,4 @@
     cd client
     npm i
     npm start
+### go to 127.0.0.1:3000 not localhost:3000
