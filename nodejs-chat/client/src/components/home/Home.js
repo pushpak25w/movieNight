@@ -37,6 +37,7 @@ const Home = () => {
         socket.emit('create-room',room,link);
         console.log(room,link);
         setRoom('');
+        setLink('');
     }
     if (!user) {
         return <Redirect to='/login' />
