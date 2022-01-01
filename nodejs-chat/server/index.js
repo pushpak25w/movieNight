@@ -6,7 +6,8 @@ const corsOptions ={
 }
 const express = require('express');
 const app = express();
-const cookieParser = require('cookie-parser')
+const cookieParser = require('cookie-parser');
+const ytdl = require('ytdl-core');
 const authRoutes = require('./routes/authRoutes');
 app.use(cors(corsOptions))
 app.use(express.json());
@@ -41,7 +42,7 @@ io.on('connection', (socket) => {
         // console.log('Then room name received is ', name)
         const room = new Room({ 
             name:roomName,
-            link:link
+            link:link,
         });
         room.save().then(result => {
             io.emit('room-created', result)
@@ -56,9 +57,9 @@ io.on('connection', (socket) => {
         })
         socket.join(room_id);
         if (error) {
-            console.log('join error', error)
+            console.log('join error', error);
         } else {
-            console.log('join user', user)
+            console.log('join user', user);
         }
     })
     socket.on('sendMessage', (message, room_id, callback) => {
@@ -87,9 +88,10 @@ io.on('connection', (socket) => {
         })
     })
     socket.on('get-videoUrl', room_id => {
-        Room.find({room_id}).then(result=>{
-            result=result[0].link;
+        Room.find({"_id":room_id}).then(result=>{
+            result=ytdl.getURLVideoID(result[0].link);
             socket.emit('display-video',result);
+            // console.log(room_id,result[0].link);
         });
     })
     socket.on('get-messages-history', room_id => {

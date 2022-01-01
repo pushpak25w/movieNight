@@ -18,7 +18,7 @@ const Chat = () => {
     const [videoId,setVideoId]=useState('');
     useEffect(() => {
         socket = io(ENDPT);
-        socket.emit('join', { name: user.name, room_id, user_id: user._id })
+        socket.emit('join', { name: user.name, room_id, user_id: user._id });
     }, [])
     useEffect(() => {
         socket.on('message', message => {
@@ -28,8 +28,7 @@ const Chat = () => {
     useEffect(() => {
         socket.emit('get-videoUrl', room_id)
         socket.on('display-video', link => {
-            let index = link.indexOf('=');
-            link = link.slice(index + 1, index + 12);
+            console.log(link);
             setVideoId(link);
         })
     }, [videoId])
