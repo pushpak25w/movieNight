@@ -13,7 +13,6 @@
     npm i
     npm start
 ### for recommendation:
-    pip install -r requirements.txt
+    pip install -r requirements.txt /*asda*/
     ./bootstrap
-<!-- a normal html comment -->
 ```use 127.0.0.1 not localhost```
