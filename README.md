@@ -1,5 +1,5 @@
 # Movies Night
-### working project on [final](https://github.com/pushpak25w/movieNight/tree/final)
+### working project with recommendation is on [final](https://github.com/pushpak25w/movieNight/tree/final)
 ## json-server :
      https://movienightdatabase.herokuapp.com/
 ## use:
