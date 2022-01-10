@@ -12,7 +12,7 @@
     cd client
     npm i
     npm start
-### recommendation [api](127.0.0.1:6000/category/): 
+### recommendation [api](http://127.0.0.1:6000/category/): 
     pip install -r requirements.txt 
     ./bootstrap
 ```use 127.0.0.1 not localhost```
