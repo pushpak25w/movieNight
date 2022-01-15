@@ -15,8 +15,10 @@
     pip install -r requirements.txt 
     ./bootstrap
 ```use 127.0.0.1 not localhost```
+
 ## dataset
-- [youtube-video-title](https://www.kaggle.com/pushpaksaraf/youtube-video-titles)
+- [youtube-video-titles](https://www.kaggle.com/pushpaksaraf/youtube-video-titles)
+
 ## notebooks links:
 1. [creating dataset](https://www.kaggle.com/pushpaksaraf/creating-ytdataset/)
 2. [training model](https://www.kaggle.com/pushpaksaraf/youtube2/)
