@@ -24,7 +24,8 @@
 3. [testing](https://www.kaggle.com/pushpaksaraf/youtube-lstm-model-testing)
 
 ### Home Page
-![Screenshot from 2022-10-03 17-00-12](https://user-images.githubusercontent.com/50488701/193566719-83f5bafc-bc19-4bb2-b73f-e660f5a3740b.png)
+![Screenshot from 2022-10-03 17-02-52](https://user-images.githubusercontent.com/50488701/193567288-71037ea9-8cb0-41a6-bcb9-2f7fbc984f81.png)
+
 
 ### Room
 ![Screenshot from 2022-10-03 17-01-02](https://user-images.githubusercontent.com/50488701/193566888-28add135-97bf-4a9b-bc4d-8075f367ba21.png)
